@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class git1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        // to ultimately get positive value
+
+        System.out.println("Enter First number : ");
+        int a = sc.nextInt();
+        System.out.println("Enter Second Number : ");
+        int b = sc.nextInt();
+        if(a>b){
+            a = a-b;
+            System.out.println("a = " + a);
+        }
+        else {
+            b = b-a;
+            System.out.println("b = " + b);
+        }
+    }
+    
+}
