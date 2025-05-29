@@ -1,0 +1,17 @@
+// To Evaluate whether The entered no. is even or odd
+import java.util.Scanner;
+
+public class EvenOdd {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter any number for Evaluation");
+        int i = sc.nextInt();
+
+        if(i % 2 == 0){
+            System.out.println("Given nuber is Even");
+        }
+        else{
+            System.out.println("Given number is odd");
+            }
+        }
+    }
